@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (max-width: 400px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url(imgs/bg-2.jpg)  no-repeat;
+    background-position: top ;
+    font-family: "Reem Kufi Ink", sans-serif;
+    direction: rtl; background-size: cover;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow-x: hidden ;
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.644);
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 10px;
+    font-family: "Amiri", serif;
+}
+
+nav ul li{
+
+list-style: none;
+font-weight: 900;
+
+}
+nav ul li a{
+text-decoration: none;
+color: rgb(0, 195, 255);
+
+}
+header{
+width: 100%;
+min-width: 100vh;
+overflow-x: hidden;
+}
+header .postar-yaso{
+width: 100%;
+height: 100%;
+padding:  30px 10px;
+position: relative;
+
+animation: post 2s alternate linear infinite 
+
+}
+@keyframes post {
+100%{
+    transform: translateY(-15px);
+}
+}
+header .postar-yaso img:nth-last-of-type(1){
+    width: 220px;
+    height: 430px;
+    rotate: -20deg;
+    translate: -23%;
+    
+    
+}
+header .postar-yaso h1{
+    position: absolute;
+    right: 40px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+header .postar-yaso img:nth-last-of-type(2){
+    position: absolute;
+    right: 10px;
+    width: 300px;
+    height: 500px;
+    animation: star 2s alternate linear infinite 
+}
+@keyframes star {
+    100%{
+        opacity: 0;
+    }
+}
+header .postar-yaso img:nth-last-of-type(3){
+    position: absolute;
+    width: 90px;
+    bottom: 0;
+    right: 5px;
+    
+}
+header .postar-yaso img:nth-last-of-type(4){
+    position: absolute;
+    width: 43px;
+    top: 17px;
+    right: 65px;
+    
+    
+}
+header .postar-yaso img:nth-last-of-type(5){
+    position: absolute;
+    width: 70px;
+    height: 120px;
+    top: 34%;
+    right: 55px;
+    
+    
+}
+header .postar-yaso img:nth-last-of-type(6){
+    position: absolute;
+    width: 60px;
+    height: 120px;
+    top: 20%;
+    right: 0px;
+    
+    
+    
+}
+header .postar-yaso img:nth-last-of-type(7){
+    position: absolute;
+    width: 60px;
+    height: 120px;
+    top: 30%;
+    right: 210px;
+    
+    
+    
+}
+header .postar-yaso img:nth-last-of-type(8){
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    bottom:10px;
+    right: 190px;
+    
+    
+    
+}
+}
+@media (max-width: 280px) {
+nav{
+    padding: 10px 0px;
+}
+nav ul{
+    font-size: 12px;
+}
+
+
+header .postar-yaso{
+padding:  20px 5px;
+}
+
+header .postar-yaso img:nth-last-of-type(1){
+    width: 200px;
+}
+header .postar-yaso h1{
+    right: 20px;
+    font-size: 40px;
+}
+header .postar-yaso img:nth-last-of-type(2){
+    position: absolute;
+    right: 10px;
+    width: 300px;
+    height: 500px;
+    animation: star 2s alternate linear infinite 
+}
+@keyframes star {
+    100%{
+        opacity: 0;
+    }
+}
+header .postar-yaso img:nth-last-of-type(3){
+    position: absolute;
+    width: 90px;
+    bottom: 0;
+    right: 5px;
+    
+}
+header .postar-yaso img:nth-last-of-type(4){
+    position: absolute;
+    width: 40px;
+    top: 11px;
+    right: 48px;
+    
+    
+}
+header .postar-yaso img:nth-last-of-type(5){
+    right: 37px;  
+
+}
+header .postar-yaso img:nth-last-of-type(6){
+    top: 19%;
+    right: -8px;
+    rotate: 19deg;
+}
+header .postar-yaso img:nth-last-of-type(7){
+    right: 195px;   
+}
+header .postar-yaso img:nth-last-of-type(8){
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    bottom:10px;
+    right: 160px;
+}
+}
+
+    </style>
+</head>
+<body>
+    <!-- start header -->
+<nav>
+    <ul>
+        <li><a href="indix.html">الصفحه الرئيسيه</a></li>
+        <li><a href="mashaweldob.html">ماشا والدب</a></li>
+        <li><a href="ilsawana.html">السا وانا</a></li>
+        <li><a href="robonsos.html">روبونزل</a></li>
+        <li><a href="https://poki.com/ar/%D8%A8%D9%86%D8%A7%D8%AA">العاب</a></li>
+    </ul>
+</nav>
+<header>
+<div class="postar-yaso">
+<h1><span>الاميره</span>ياسو</h1>
+<img src="imgs/img-14.png" alt="">
+<img src="imgs/img-5.png" alt="">
+<img src="imgs/img-6.png" alt="">
+<img src="imgs/img-12.png" alt="">
+<img src="imgs/img-2.png" alt="">
+<img src="imgs/img-15.png" alt="">
+    <img src="imgs/stars.png" alt="">
+    <img src="imgs/img-yaso2.png" alt="">
+</div>
+<audio src="imgs/ilsa.mp3" controls ></audio>
+</header>
+<!-- end header -->
+</body>
+</html>
